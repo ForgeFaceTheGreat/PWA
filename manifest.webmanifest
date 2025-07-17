@@ -1,0 +1,21 @@
+{
+    "name": "Github Pages PWA",
+    "short_name": "GHPPWA",
+    "description": "Progressive Web App Example to do super cool stuff",
+
+    "scope": "/PWA/",
+    "start_url": "/PWA/",
+
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+
+    "display": "standalone",
+
+    "icons": [
+        {
+            "src": "/PWA/img/icon.png",
+            "type": "image/png",
+            "sizes": "325x325"
+        }
+    ]
+}

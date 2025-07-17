@@ -1,7 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>PWA</title>
+        <link rel="canoncal" href="https://forgefacethegreat.github.io/PWA/">
+        <link rel="manifest" href="/PWA/manifest.webmanifest">
+    </head>
+    
     <body>
         <h1>Hello World</h1>
         <p>Congrats it works I guess!</p>
+
+        <script>
+            if (navigator.serviceWorker) {
+                navigator.serviceWorker.register ('/PWA/sw.js', {scope: '/PWA/'})
+            }
+        </script>
     </body>
 </html>
