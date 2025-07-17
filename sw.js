@@ -10,7 +10,7 @@ var VERSION = 'version_00';
 var URLS = [
     `${GHPath}/`,
     `${GHPath}/index.html`,
-    `${GHPath}/styleSheet.css`
+    `${GHPath}/stylesheet.css`
     `${GHPath}/scripts/app.js`
 ]
 
