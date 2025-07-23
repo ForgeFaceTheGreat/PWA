@@ -5,7 +5,7 @@ var GHPath = '/PWA';
 var APP_PREFIX = 'pwa_';
 
 // ****Change version number any time any files are changed or else****
-var VERSION = 'version_0.0.0.5';
+var VERSION = 'version_0.0.0.6';
 
 var URLS = [
     `${GHPath}/`,
